@@ -1,0 +1,6 @@
+framework module DBLongTimeASRSDK {
+  umbrella header "DBLongTimeASRSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

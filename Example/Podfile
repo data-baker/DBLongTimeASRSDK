@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DBLongTimeASRSDK_Tests' do
+  pod 'DBLongTimeASRSDK', :path => '../'
+  
+  
+end
