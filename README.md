@@ -22,7 +22,7 @@ pod 'DBLongTimeASRSDK'
 
 ## Author
 
-1477820229@qq.com, linxi@data-baker.com
+linxi@data-baker.com
 
 ## License
 
