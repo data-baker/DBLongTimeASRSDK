@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author           = { '林喜' => 'linxi@data-baker.com' }
   s.source           = { :git => 'https://github.com/data-baker/DBLongTimeASRSDK.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files = 'DBLongTimeASRSDK/Classes/**/*'
+  s.source_files = 'DBLongTimeASRSDK/Classes/*'
   #s.vendored_frameworks   = 'DBLongTimeASRSDK/Classes/*.framework'
   s.dependency 'DBCommonLib'
 
