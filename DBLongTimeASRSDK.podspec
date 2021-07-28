@@ -15,5 +15,8 @@ Pod::Spec.new do |s|
   s.source_files = 'DBLongTimeASRSDK/Classes/*'
   #s.vendored_frameworks   = 'DBLongTimeASRSDK/Classes/*.framework'
   s.dependency 'DBCommonLib'
+  
+     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
